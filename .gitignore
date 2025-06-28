@@ -3,3 +3,4 @@ dmenu
 *.diff
 *.o
 stest
+*.orig
