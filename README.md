@@ -57,3 +57,30 @@ make clean && sudo make install
 Here are some changes and patches that I've  done/merged:
 
 - `center` patch
+> [!TIP]
+>
+> Width centering works fine, but I've personalized the
+> `menu_height_ratio-config.def.h` to fit my preferences. You can so:
+>
+> > The `menu_height_ratio` will split your screen into the mentioned
+> > marker, i.e:
+> > ```c
+> > /*
+> >  * It'll split your screen into 2 halfs and then, display dmenu
+> >  * Centered at the first index by the split, so:
+> >  * >>> 40 x 9 (2.f means 9 / 2 => 4.5)
+> >  * +--------------------------------------+
+> >  * |                                      |
+> >  * |                                      |
+> >  * |                                      |
+> >  * | --------- here's your half --------- |
+> >  * |                                      |
+> >  * |                                      |
+> >  * |                                      |
+> >  * +--------------------------------------+
+> >  *
+> >  * Consider changing this value to your preferences (mine: 2.5f)
+> >  */
+> > static const float menu_height_ratio = 2.0f;
+> > ```
+- `border` patch
