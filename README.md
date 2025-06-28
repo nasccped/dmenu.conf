@@ -83,4 +83,5 @@ Here are some changes and patches that I've  done/merged:
 > >  */
 > > static const float menu_height_ratio = 2.0f;
 > > ```
-- `border` patch
+- `border` patch: I've been using 2 px for a while. You can change
+  this value at `border_width-config.def.h`
