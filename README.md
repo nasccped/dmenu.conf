@@ -51,3 +51,9 @@ rm -rf .git
 ```sh
 make clean && sudo make install
 ```
+
+## Changes/Patches
+
+Here are some changes and patches that I've  done/merged:
+
+- `center` patch
