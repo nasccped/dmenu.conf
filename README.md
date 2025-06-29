@@ -85,3 +85,5 @@ Here are some changes and patches that I've  done/merged:
 > > ```
 - `border` patch: I've been using 2 px for a while. You can change
   this value at `border_width-config.def.h`
+- `grid` patch: change dmenu from single column to multi-cell (row +
+  column). You can change the row/col amount in `config.def.h`.
