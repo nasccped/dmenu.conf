@@ -27,6 +27,10 @@ Since `dmenu` is targeted to X server, you'll need the X dependencies
 and libraries as well _(th'all are listed in my
 [dwm.conf](https://github.com/nasccped/dwm.conf) repository)._
 
+I've also set [`bitocra`](https://github.com/ninjaaron/bitocra) as
+dmenu font. If you don't have it, it's ok (the dmenu will fallback
+to other fonts - _default case: `monospace`_).
+
 > [!NOTE]
 >
 > This is a **github repository**, dmenu was built in **C lang**,
@@ -89,3 +93,6 @@ Here are some changes and patches that I've  done/merged:
   column). You can change the row/col amount in `config.def.h`.
 - `coloring`: I've set my own color hex (using `#define` at the top
   of `config.def.h`)
+- `font`: I'm currently using the
+  [`bitocra`](https://github.com/ninjaaron/bitocra). consider
+  changing `static const char *fonts[]` at `config.def.h`
