@@ -1,10 +1,10 @@
 /* See LICENSE file for copyright and license details. */
 /* Default settings; can be overriden by command line. */
 
-#define color_black     "#030303"
-#define color_white     "#ffffff"
+#define color_black     "#010101"
+#define color_white     "#ddeeff"
 #define color_dark_grey "#525252"
-#define color_mid_grey  "#525252"
+#define color_mid_grey  "#495052"
 
 static int topbar = 1;                      /* -b  option; if 0, dmenu appears at bottom     */
 static int centered = 1;                    /* -c option; centers dmenu on screen */
