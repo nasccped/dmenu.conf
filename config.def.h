@@ -12,7 +12,7 @@ static int min_width = 800;                    /* minimum width when centered */
 static const float menu_height_ratio = 2.5f;  /* This is the ratio used in the original calculation */
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static const char *fonts[] = {
-	"bitocra13:style=Regular:size=13", // prefer this font, else: (FALLBACK)
+	"Fixedsys Excelsior:style=Regular:pixelsize=16", // prefer this font, else: (FALLBACK)
 	"Terminus:style=Regular:size=10",
 	"monospace:size=10"
 };
