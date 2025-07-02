@@ -1,10 +1,11 @@
 /* See LICENSE file for copyright and license details. */
 /* Default settings; can be overriden by command line. */
 
-#define color_black     "#010101"
-#define color_white     "#ddeeff"
-#define color_dark_grey "#525252"
-#define color_mid_grey  "#495052"
+static const char col_gray1[] = "#222222";
+static const char col_gray2[] = "#444444";
+static const char col_gray3[] = "#bbbbbb";
+static const char col_gray4[] = "#eeeeee";
+static const char col_cyan[]  = "#005577";
 
 static int topbar = 1;                      /* -b  option; if 0, dmenu appears at bottom     */
 static int centered = 1;                    /* -c option; centers dmenu on screen */
@@ -18,10 +19,10 @@ static const char *fonts[] = {
 };
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
-	/*                fg               bg       */
-	[SchemeNorm] = { color_dark_grey, color_black },
-	[SchemeSel]  = { color_white    , color_mid_grey },
-	[SchemeOut]  = { color_white    , color_black },
+	/*               fg         bg       */
+	[SchemeNorm] = { col_gray3, col_gray1 },
+	[SchemeSel]  = { col_gray4, col_cyan  },
+	[SchemeOut]  = { col_gray4, col_gray1 },
 };
 /* -l and -g options; controls number of lines and columns in grid if > 0 */
 static unsigned int lines      = 10;
