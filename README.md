@@ -94,3 +94,10 @@ Here are some changes and patches that I've  done/merged:
 - `font`: I'm currently using the
   [`Fixedsys Excelsior`](https://github.com/ninjaaron/bitocra).
   Consider changing `static const char *fonts[]` at `config.def.h`
+- `line height`: I've set line height to the same as dwm statusbar
+   height _(25px)_. You can change it in config.def.h:
+```c
+/* -h option; minimum height of a menu line */
+static unsigned int lineheight = 25;
+static unsigned int min_lineheight = 25;
+```
