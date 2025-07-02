@@ -91,8 +91,6 @@ Here are some changes and patches that I've  done/merged:
   this value at `border_width-config.def.h`
 - `grid` patch: change dmenu from single column to multi-cell (row +
   column). You can change the row/col amount in `config.def.h`.
-- `coloring`: I've set my own color hex (using `#define` at the top
-  of `config.def.h`)
 - `font`: I'm currently using the
   [`Fixedsys Excelsior`](https://github.com/ninjaaron/bitocra).
   Consider changing `static const char *fonts[]` at `config.def.h`
