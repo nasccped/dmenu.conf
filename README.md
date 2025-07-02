@@ -27,8 +27,8 @@ Since `dmenu` is targeted to X server, you'll need the X dependencies
 and libraries as well _(th'all are listed in my
 [dwm.conf](https://github.com/nasccped/dwm.conf) repository)._
 
-I've also set [`bitocra`](https://github.com/ninjaaron/bitocra) as
-dmenu font. If you don't have it, it's ok (the dmenu will fallback
+I've also set [`Fixedsys Excelsior`](https://github.com/ninjaaron/bitocra)
+as dmenu font. If you don't have it, it's ok (the dmenu will fallback
 to other fonts - _default case: `monospace`_).
 
 > [!NOTE]
@@ -94,5 +94,5 @@ Here are some changes and patches that I've  done/merged:
 - `coloring`: I've set my own color hex (using `#define` at the top
   of `config.def.h`)
 - `font`: I'm currently using the
-  [`bitocra`](https://github.com/ninjaaron/bitocra). consider
-  changing `static const char *fonts[]` at `config.def.h`
+  [`Fixedsys Excelsior`](https://github.com/ninjaaron/bitocra).
+  Consider changing `static const char *fonts[]` at `config.def.h`
